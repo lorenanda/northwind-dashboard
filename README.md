@@ -1,6 +1,5 @@
-Lorena Ciutacu | SPICED Data Science Bootcamp - Stochastic Sage
-
-# Project 6: Dashboard
+# Northwind Dashboard
+This project was completed in week 6 of the Data Science Bootcamp at SPICED Academy in Berlin. The goal is to build a dashboard on top of a Postgres database that runs in the AWS cloud.
 
 ## Description
 The Northwind database is a sample database created by Microsoft for tutorials and testing purposes. It contains information about the business of *Northwind Trades*, a fictional company that sells various food products internationally. It includes information about orders, inventory, purchasing, suppliers, shipping, and employees. 
