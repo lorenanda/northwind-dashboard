@@ -12,12 +12,10 @@ The dashboard was created in Metabase and represents KPIs on the Sales and Team 
 - The SALES part includes data from the Orders and Products tables.
 - The TEAM part includes data from the Employees, Customers, and Orders tables.
 
-You can find some of the SQL queries used for creating these KPIs in [`northwind_queries.sql`](https://github.com/lorenanda/northwind-dashboard/blob/main/northwind_queries.sql) or [`northwind_queries.py`](https://github.com/lorenanda/northwind-dashboard/blob/main/northwind_queries.py) (integrated with SQLAlchemy and pandas).
-
 ![dashboard_demo](https://github.com/spicedacademy/stochastic-sage-student-code/blob/lorena/week_6/dashboard_demo.gif)
 
-## Improvements
-Pretty as it may be, the dashboard has some flaws/bugs, which I hope to fix eventually:
-- Filters (date, quarter, country) are not applied to all represented data.
-- Map representation of cities is not working. This is because the dataset does not inlcude the latitude and longitude coordinates of the cities. 
-- Photos of employees are broken, the path is not valid.
+## Files
+- [`northwind_database.sql`](https://github.com/lorenanda/northwind-dashboard/blob/main/northwind_database.sql): code dump for PostgreSQL to create the tables.
+- [`northwind_queries.sql`](https://github.com/lorenanda/northwind-dashboard/blob/main/northwind_queries.sql): queries used for creating the dashboard KPIs
+- [`northwind_queries.py`](https://github.com/lorenanda/northwind-dashboard/blob/main/northwind_queries.py): same queries, but integrated with SQLAlchemy and pandas.
+- [`dashboard_demo.gif`](https://github.com/spicedacademy/stochastic-sage-student-code/blob/lorena/week_6/dashboard_demo.gif): recorded dashboard interaction.
