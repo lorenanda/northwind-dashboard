@@ -13,7 +13,7 @@ The dashboard was created in Metabase and represents KPIs on the Sales and Team 
 - The SALES part includes data from the Orders and Products tables.
 - The TEAM part includes data from the Employees, Customers, and Orders tables.
 
-You can find some of the queries used for creating these KPIs in the `northwind_queries.py` file.
+You can find some of the queries used for creating these KPIs in the [`northwind_queries.py` file](https://github.com/lorenanda/northwind-dashboard/blob/main/northwind_queries.py).
 
 ![dashboard_demo](https://github.com/spicedacademy/stochastic-sage-student-code/blob/lorena/week_6/dashboard_demo.gif)
 
