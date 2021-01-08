@@ -13,7 +13,7 @@ The dashboard was created in Metabase and represents KPIs on the Sales and Team 
 - The SALES part includes data from the Orders and Products tables.
 - The TEAM part includes data from the Employees, Customers, and Orders tables.
 
-![dashboard_demo](https://github.com/spicedacademy/stochastic-sage-student-code/blob/lorena/week_6/dashboard_demo.gif)
+![dashboard_demo](https://github.com/lorenanda/northwind-dashboard/blob/main/dashboard_demo.gif)
 
 ## Files
 - [`northwind_database.sql`](https://github.com/lorenanda/northwind-dashboard/blob/main/northwind_database.sql): code dump for PostgreSQL to create the tables.
